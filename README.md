@@ -16,10 +16,10 @@
 
 
 ## Conclusions
-- The data is divided into training and validation set along with resizing the images
-- The image went through scaling. As it is an RGB image,(image/255) approach is applied
+- The data is divided into training and validation set along with resizing the images.
+- The image went through scaling. As it is an RGB image,(image/255) approach is applied.
 - A model is built uing the rescaled images and basic layers. It had around 80% of training accuracy and 50% of validation acuuracy
-- The model was clearly overfitting
+- The model was clearly overfitting.
 - To control overfitting dropout technique was used along with data augumentation.
 - The revised model gave around 50% training and validation accuracy
 - On further analysis, heavy class imbalance was found. 'actinic keratosis','dermatofibroma', 'seborrheic keratosis', 'squamous cell carcinoma', 'vascular lesion' classes had comparitively very less train data
